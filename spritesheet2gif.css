@@ -1,0 +1,59 @@
+#animated-gif img {
+	margin-top: 1em;
+}
+
+.colored {
+	cursor: default;
+	font-size: 0.9em;
+	padding: 0 0.25em;
+}
+	.colored     { background-color: #f0f0f0; }
+	.colored.alt { background-color: #f1f2f3; }
+
+.dimension-x,
+.tile-horizontal,
+.tile-vertical {
+	display: none;
+}
+
+input[type="color"] {
+	height: 2.5em;
+	width: 100%;
+}
+
+input[type="file"] {
+	width: 100%;
+}
+
+main form {
+	padding-top: 1em;
+}
+
+main td,
+main th {
+	padding: 1em;
+}
+
+main td li {
+	list-style-type: circle;
+}
+
+	main td li p {
+		padding: 0;
+	}
+
+main td ul {
+	padding-top: 1em;
+}
+
+main th {
+	width: 15%;
+}
+
+#max-file-size {
+	padding: 1em 0 0 0;
+}
+
+#more-info {
+	display: none;
+}
